@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   helloBtn.addEventListener('click', () => {
     count += 1;
-    helloText.textContent = 'Szia! Kattintottál a gombra.';
+    helloText.textContent = 'Szia!';
     clickCount.textContent = String(count);
   });
 
